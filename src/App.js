@@ -1,12 +1,14 @@
 import "./App.css";
-import Event from "./components/events/event";
-// import EventLanding from "./components/landing/eventLanding";
+import Landing from "./components/landing/landingPg";
+// import Event from "./components/events/event";
+// import EventLanding from "./components/events/eventLanding";
 
 function App() {
   return (
     <div className="App">
-      <Event />
+      {/* <Event /> */}
       {/* <EventLanding /> */}
+      <Landing />
     </div>
   );
 }
