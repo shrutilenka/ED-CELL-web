@@ -1,4 +1,7 @@
-import { Carousel } from "antd";
+import { useState } from "react";
+import { Carousel, Button, Drawer } from "antd";
+import "./../../styles/style.css";
+import Event from "./event";
 
 const contentStyle = {
   height: "460px",
@@ -9,22 +12,73 @@ const contentStyle = {
 };
 
 const EventLanding = () => {
+  const [open, setOpen] = useState(false);
+  const showDrawer = () => {
+    setOpen(true);
+  };
+  const onClose = () => {
+    setOpen(false);
+  };
+
   return (
     <div>
-      <Carousel autoplay autoplaySpeed={2000}>
-        <div>
-          <h3 style={contentStyle}>1</h3>
+      {/* side navbar */}
+
+      <div className="sidenav">
+        <div className="burger-menu">
+          <Button type="primary" onClick={showDrawer}>
+            Open
+          </Button>
+          <Drawer
+            title="Basic Drawer"
+            closable={false}
+            onClose={onClose}
+            open={open}
+            placement={"left"}
+          >
+            <p>Some contents...</p>
+            <p>Some contents...</p>
+            <p>Some contents...</p>
+          </Drawer>
         </div>
-        <div>
-          <h3 style={contentStyle}>2</h3>
+        <div></div>
+      </div>
+
+      <div className="main">
+        {/* banner part */}
+        <div className="event-banner-with-carousel">
+          <div className="banner-txt">
+            <div className="text">
+              <h1>2023 Season</h1>
+              <p>
+                Find, compete, and earn points at the largest, most diverse
+                hacker events in the world.
+              </p>
+            </div>
+          </div>
+          <div className="carousel">
+            <Carousel autoplay autoplaySpeed={2000} className="banner-carousel">
+              <div>
+                <h3 style={contentStyle}>1</h3>
+              </div>
+              <div>
+                <h3 style={contentStyle}>2</h3>
+              </div>
+              <div>
+                <h3 style={contentStyle}>3</h3>
+              </div>
+              <div>
+                <h3 style={contentStyle}>4</h3>
+              </div>
+            </Carousel>
+          </div>
         </div>
-        <div>
-          <h3 style={contentStyle}>3</h3>
-        </div>
-        <div>
-          <h3 style={contentStyle}>4</h3>
-        </div>
-      </Carousel>
+
+        <hr style={{ margin: " 2rem 0rem" }} />
+      </div>
+      <div>
+        <Event />
+      </div>
     </div>
   );
 };
