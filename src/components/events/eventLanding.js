@@ -41,20 +41,17 @@ const EventLanding = () => {
             <p>Some contents...</p>
           </Drawer>
         </div>
-        <div></div>
       </div>
 
       <div className="main">
         {/* banner part */}
         <div className="event-banner-with-carousel">
           <div className="banner-txt">
-            <div className="text">
-              <h1>2023 Season</h1>
-              <p>
-                Find, compete, and earn points at the largest, most diverse
-                hacker events in the world.
-              </p>
-            </div>
+            <h1>2023 Season</h1>
+            <p>
+              Find, compete, and earn points at the largest, most diverse hacker
+              events in the world.
+            </p>
           </div>
           <div className="carousel">
             <Carousel autoplay autoplaySpeed={2000} className="banner-carousel">
@@ -75,9 +72,9 @@ const EventLanding = () => {
         </div>
 
         <hr style={{ margin: " 2rem 0rem" }} />
-      </div>
-      <div>
-        <Event />
+        <div>
+          <Event />
+        </div>
       </div>
     </div>
   );

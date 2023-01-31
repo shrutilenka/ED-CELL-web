@@ -2,7 +2,7 @@ import { Tabs } from "antd";
 import Ongoing from "./ongoing";
 import Upcoming from "./upcoming";
 import PastEvent from "./pastEvent";
-import Banner from "./banner";
+// import Banner from "./banner";
 
 const Event = () => {
   const onChange = (key) => {
@@ -10,7 +10,7 @@ const Event = () => {
   };
   return (
     <div className="tabs">
-      <Banner />
+      {/* <Banner /> */}
       <Tabs
         defaultActiveKey="1"
         onChange={onChange}
