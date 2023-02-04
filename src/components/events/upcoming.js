@@ -1,61 +1,41 @@
-import { Card, Col, Row } from "antd";
+import { Card } from "antd";
+import "./../../styles/style.css";
+import UpcomingR from "./../../json/upcomingEvents.json";
 
 const Upcoming = () => {
-  const { Meta } = Card;
   return (
-    <Row
-      gutter={200}
-      style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        marginTop: "4rem",
-        width: "100%",
-      }}
-    >
-      <Col>
-        <Card
-          hoverable
-          style={{ width: 240 }}
-          cover={
-            <img
-              alt="example"
-              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-            />
-          }
-        >
-          <Meta title="Europe Street beat" description="www.instagram.com" />
-        </Card>
-      </Col>
-      <Col>
-        <Card
-          hoverable
-          style={{ width: 240 }}
-          cover={
-            <img
-              alt="example"
-              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-            />
-          }
-        >
-          <Meta title="Europe Street beat" description="www.instagram.com" />
-        </Card>
-      </Col>
-      <Col>
-        <Card
-          hoverable
-          style={{ width: 240 }}
-          cover={
-            <img
-              alt="example"
-              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-            />
-          }
-        >
-          <Meta title="Europe Street beat" description="www.instagram.com" />
-        </Card>
-      </Col>
-    </Row>
+    <div className="cards">
+      {UpcomingR.map((records) => {
+        return (
+          <Card
+            style={{
+              width: 400,
+              marginBottom: "4rem",
+            }}
+            cover={<img alt="example" src={records.src} />}
+            key={records.id}
+          >
+            {/* <p>{records.title} </p> */}
+            <div className="card-content">
+              <h3>Rocketopedia</h3>
+              <p>Nov 14th</p>
+            </div>
+            <div className="card-content">
+              <p>Udaan</p>
+              <p>5:30 am</p>
+            </div>
+            <div className="card-timer">
+              <p>
+                ENDS IN <span>27.14.2</span>
+              </p>
+            </div>
+            <button className="button" style={{ verticalAlign: "middle" }}>
+              <span>Register</span>
+            </button>
+          </Card>
+        );
+      })}
+    </div>
   );
 };
 export default Upcoming;
