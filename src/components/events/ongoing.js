@@ -1,6 +1,6 @@
 import { Card } from "antd";
 import "./../../styles/style.css";
-import OngoingR from "./../../ongoingEvents.json";
+import OngoingR from "./../../json/ongoingEvents.json";
 
 const Ongoing = () => {
   return (
