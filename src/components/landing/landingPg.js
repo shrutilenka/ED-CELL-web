@@ -1,28 +1,33 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import lottie from "lottie-web";
 import "./../../styles/style.css";
+import Navbar from "./navbar";
 
 const Landing = () => {
-  const container = useRef(null);
-
   useEffect(() => {
     lottie.loadAnimation({
-      container: container.current,
+      container: document.querySelector(".container"),
       renderer: "svg",
-      loop: true,
+      loop: false,
       autoplay: true,
       animationData: require("./../../rocket.json"),
+      rendererSettings: {
+        preserveAspectRatio: "xMidYMid slice",
+      },
     });
   }, []);
 
   return (
     <div className="landing-banner">
-      <dic className="text">
-        <p>
-          something for us <br /> rest for others !
-        </p>
-      </dic>
-      <div className="container" ref={container}></div>
+      <Navbar />
+      <section className="banner">
+        <div className="text">
+          <p>
+            something for us <br /> rest for others !
+          </p>
+        </div>
+        <div className="container" />
+      </section>
     </div>
   );
 };
