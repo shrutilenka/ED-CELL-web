@@ -1,5 +1,6 @@
-import { useState } from "react";
-import { Carousel, Button, Drawer } from "antd";
+// import { useState } from "react";
+// import { Carousel, Button, Drawer } from "antd";
+import { Carousel } from "antd";
 import "./../../styles/style.css";
 import Event from "./event";
 
@@ -12,19 +13,19 @@ const contentStyle = {
 };
 
 const EventLanding = () => {
-  const [open, setOpen] = useState(false);
-  const showDrawer = () => {
-    setOpen(true);
-  };
-  const onClose = () => {
-    setOpen(false);
-  };
+  //   const [open, setOpen] = useState(false);
+  //   const showDrawer = () => {
+  //     setOpen(true);
+  //   };
+  //   const onClose = () => {
+  //     setOpen(false);
+  //   };
 
   return (
     <div>
       {/* side navbar */}
 
-      <div className="sidenav">
+      {/* <div className="sidenav">
         <div className="burger-menu">
           <Button type="primary" onClick={showDrawer}>
             Open
@@ -41,7 +42,7 @@ const EventLanding = () => {
             <p>Some contents...</p>
           </Drawer>
         </div>
-      </div>
+      </div> */}
 
       <div className="main">
         {/* banner part */}
