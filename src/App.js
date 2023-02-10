@@ -1,12 +1,14 @@
 import "./App.css";
-import Landing from "./components/landing/landingPg";
+import Footer from "./components/footer/footer";
+// import Landing from "./components/landing/landingPg";
 // import EventLanding from "./components/events/eventLanding";
 
 function App() {
   return (
     <div className="App">
       {/* <EventLanding /> */}
-      <Landing />
+      {/* <Landing /> */}
+      <Footer />
     </div>
   );
 }
