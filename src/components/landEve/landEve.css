@@ -9,6 +9,8 @@
     align-items: flex-start;
     display: flex;
     flex-direction: row;
+    padding-top: 8rem;
+
 }
 .register{
     display: flex;
