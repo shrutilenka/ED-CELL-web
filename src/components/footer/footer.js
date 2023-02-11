@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="main">
         <div className="sub-main">
-          <p>Feel free to ping us !</p>
+          <h1>Feel free to ping us !</h1>
           <div className="icons">
             <a href="/">
               <img src={insta} alt="" />
@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="sub-main">
-          <p>Quick Links</p>
+          <h1>Quick Links</h1>
           <div className="links">
             <p>Contact Us</p>
             <p>About Us</p>
@@ -31,10 +31,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="sub-main">
-          <p>Get In Touch</p>
+          <h1>Get In Touch</h1>
           <div className="info">
             <p>+91-9583785500</p>
-            <p>KIIT University, Patia, Bhubaneswar pcr@ecell.org.in</p>
+            <p>OUTR, Ghatikia, Bhubaneswar pcr@ecell.org.in</p>
           </div>
         </div>
       </div>

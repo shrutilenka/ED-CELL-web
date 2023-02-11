@@ -10,13 +10,22 @@
   }
 
   .main{
-    width: 60%;
+    width: 70%;
     margin: auto;
-    padding: 1rem 0rem;
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
 
+  }
+  .main h1{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    font-family: "gilroyBold";
+    text-underline-offset: 8px;
+    text-decoration-color: #21379b;
+  }
+  .footer p{
+    font-family: "gilroyLight";
   }
   .sub-main{
     display: flex;
