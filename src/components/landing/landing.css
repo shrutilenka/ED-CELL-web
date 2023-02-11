@@ -1,0 +1,26 @@
+.banner{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 8rem;
+}
+.left{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
+     width: 50%;
+     margin-right: 4rem;
+     text-align: left;
+}
+.banner-carousel{
+    /* float: right; */
+    width: 30vw;
+    height: auto;
+}
+.logo{
+    margin: 1rem;
+}
