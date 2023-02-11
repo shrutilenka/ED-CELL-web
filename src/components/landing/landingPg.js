@@ -31,8 +31,8 @@ const Landing = () => {
       <Navbar />
       <section className="banner">
         <div className="left">
-          <h1>ENTREPRENEURSHIP</h1>
-          <h1>DEVELOPMENT CELL</h1>
+          <h1 style={{ color: "#5271FF" }}>ENTREPRENEURSHIP</h1>
+          <h1 style={{ color: "#1E1E1E" }}>DEVELOPMENT CELL</h1>
           <p>
             A major innovation hub for technology ventures and a site for
             interfacing with the industry, academia, government bodies, and
