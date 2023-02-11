@@ -6,11 +6,13 @@ const LandEve = () => {
     <div className="eve-list">
       <div className="main">
         <div className="register">
-          <h1>UPCOMING EVENTS</h1>
+          <h1 style={{ color: "#f15c28" }}>
+            UPCOMING <span style={{ color: "#1e1e1e" }}>EVENTS</span>
+          </h1>
           <div className="reg-btn">
             <button>
               REGISTER NOW{" "}
-              <span>
+              <span className="span" style={{ fontSize: "3rem" }}>
                 <BsArrowUpRightSquareFill />
               </span>
             </button>
@@ -20,48 +22,60 @@ const LandEve = () => {
           <div className="each-card">
             <div className="blue-bg">
               <div className="date">
-                <p>Feb</p>
-                <p>11</p>
+                <p style={{ fontWeight: "bolder" }}>
+                  Feb <br />
+                  11
+                </p>
+                {/* <p>11</p> */}
               </div>
               <div className="info">
-                <h3>Make It Big</h3>
-                <p>9.30am - 11.30am</p>
+                <h2>Make It Big</h2>
+                <h4>9.30am - 11.30am</h4>
               </div>
             </div>
           </div>
           <div className="each-card">
             <div className="blue-bg">
               <div className="date">
-                <p>Feb</p>
-                <p>11</p>
+                <p style={{ fontWeight: "bolder" }}>
+                  Feb <br />
+                  11
+                </p>
+                {/* <p>11</p> */}
               </div>
               <div className="info">
-                <h3>Make It Big</h3>
-                <p>9.30am - 11.30am</p>
+                <h2>Make It Big</h2>
+                <h4>9.30am - 11.30am</h4>
               </div>
             </div>
           </div>
           <div className="each-card">
             <div className="blue-bg">
               <div className="date">
-                <p>Feb</p>
-                <p>11</p>
+                <p style={{ fontWeight: "bolder" }}>
+                  Feb <br />
+                  11
+                </p>
+                {/* <p>11</p> */}
               </div>
               <div className="info">
-                <h3>Make It Big</h3>
-                <p>9.30am - 11.30am</p>
+                <h2>Make It Big</h2>
+                <h4>9.30am - 11.30am</h4>
               </div>
             </div>
           </div>
           <div className="each-card">
             <div className="blue-bg">
               <div className="date">
-                <p>Feb</p>
-                <p>11</p>
+                <p style={{ fontWeight: "bolder" }}>
+                  Feb <br />
+                  11
+                </p>
+                {/* <p>11</p> */}
               </div>
               <div className="info">
-                <h3>Make It Big</h3>
-                <p>9.30am - 11.30am</p>
+                <h2>Make It Big</h2>
+                <h4>9.30am - 11.30am</h4>
               </div>
             </div>
           </div>
