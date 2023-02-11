@@ -44,7 +44,13 @@ const Landing = () => {
         <div className="carousel">
           <Carousel autoplay autoplaySpeed={2000} className="banner-carousel">
             <div>
-              <h3 style={contentStyle}>1</h3>
+              <h3 style={contentStyle}>
+                <img
+                  src="https://picsum.photos/200/300"
+                  style={{ height: "100%", width: "100%" }}
+                  alt="pic"
+                />
+              </h3>
             </div>
             <div>
               <h3 style={contentStyle}>2</h3>
