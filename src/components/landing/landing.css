@@ -1,5 +1,7 @@
+@import url(./../../fonts/font.css);
+
 .banner{
-    width: 60%;
+    width: 70%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -15,6 +17,13 @@
      width: 50%;
      margin-right: 4rem;
      text-align: left;
+}
+.left h1{
+    font-family: "monumentUltraBold";
+    font-size: 3rem;
+}
+.left p{
+    font-family: 'gilroyLight';
 }
 .banner-carousel{
     /* float: right; */

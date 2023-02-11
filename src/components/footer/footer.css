@@ -1,4 +1,6 @@
-  .footer{
+@import url(./../../fonts/font.css);
+
+.footer{
     height: auto;
     background-color: #191919;
     color: #fff;
