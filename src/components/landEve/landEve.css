@@ -2,9 +2,11 @@
 
 .eve-list{
     height: auto;
+    margin-top: 8rem;
+    background-color: #f4f4fc;
 }
 .main{
-    width: 60%;
+    width: 70%;
     margin: auto;
     padding: 1rem 0rem;
     justify-content: space-around;
@@ -22,6 +24,10 @@
     text-align: left;
     width: 30%;
 }
+.register h1{
+    font-family: "monumentRegular";
+    font-size: 3rem;
+}
 .list{
     display: flex;
     flex-direction: column;
@@ -34,27 +40,51 @@
     height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
+    padding: 0rem 1rem 0rem 1rem;
     align-items: center;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-    width: 20rem;
+    width: 25rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 .date{
     display: flex;
     flex-direction: column;
+    font-family: "gilroyLight";
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     background-color: #ffffff;
     border-top-left-radius: 1rem;
     outline: 1px solid #ffffff;
+    color: #1e1e1e;
+    margin-right: 2rem;
 }
 .info{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    font-family: "gilroyLight";
+    color: #ffffff;
+    row-gap: .5rem;
 }
 .each-card{
     margin-bottom: 1rem;
+}
+.reg-btn button{
+    font-size: 2.5rem;
+    padding: .5rem;
+    font-family: "gilroyLight";
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #1e1e1e;
+}
+.reg-btn span{
+    position: relative;
+    top: .4rem;
+}
+.reg-btn span :hover{
+    color: #036cdb;
+    background-color: #ffffff;
 }

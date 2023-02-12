@@ -11,10 +11,10 @@
     width: 100%;
   }
   
-  body {
+  /* body {
     color: #202046;
-    font-family: "Inter", sans-serif;
-  }
+    font-family:"gilroyLight", "Inter", sans-serif;
+  } */
   
   .App {
     background-image: url(./../../img/pattern-curve.svg);
@@ -141,6 +141,7 @@
               align-items: start;
       background-position: 33% 20%;
       padding-left: 25px;
+      font-family: "gilroyLight";
     }
     .testimonial-text {
       font-size: 32px;
