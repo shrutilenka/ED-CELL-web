@@ -45,25 +45,29 @@
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     color: black;
-    /* right: 32px; */
+    right: 100px;
     /* top: 30px; */
     margin: 1.5rem 0rem;
     height: 42px;
     width: 42px;
     line-height: 42px;
     display: block;
-    position: fixed;
+    position: relative;
     background-color: white;
     border: none;
 }
 .landing-nav{
     height: 6rem;
     width: 100%;
-    margin: auto;
+    max-width: 1300px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed; */
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    position: fixed;
     background-color: #ffffff;
-}
+    justify-content: space-between;
+    margin: auto;
+  }
