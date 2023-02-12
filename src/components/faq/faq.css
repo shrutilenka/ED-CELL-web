@@ -3,6 +3,7 @@
 .accordion{
     background-color: #f4f4fc;
     height: auto;
+    padding-bottom: 4rem;
 }
 
 .main{
@@ -21,10 +22,15 @@
     
 }
 
-.sub-main h1{
-    font-family: "monumentRegular";
+h1{
+    font-size: 2rem;
 }
 
 .main p{
     font-family: "gilroyLight";
+    font-size: 20px;
+}
+
+.collapse{
+    padding-top: 1rem;
 }

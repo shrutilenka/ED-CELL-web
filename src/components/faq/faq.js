@@ -17,7 +17,7 @@ const Faq = () => {
     <div className="accordion">
       <div className="main">
         <div className="sub-main">
-          <h1>Our Ourganisation</h1>
+          <h1 style={{ fontSize: "2rem" }}>Our Ourganisation</h1>
           <p>
             We believe that emerging economies like India need the drive of the
             new and young breed of worthy entrepreneurs who target their efforts
@@ -34,8 +34,8 @@ const Faq = () => {
           </p>
         </div>
         <div className="sub-main">
-          <h1>General Questions</h1>
-          <div>
+          <h1 style={{ fontSize: "2rem" }}>General Questions</h1>
+          <div className="collapse">
             <Collapse defaultActiveKey={["1"]} onChange={onChange}>
               <Panel header="This is panel header 1" key="1">
                 <p>{text}</p>

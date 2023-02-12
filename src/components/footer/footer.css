@@ -26,6 +26,7 @@
   }
   .footer p{
     font-family: "gilroyLight";
+    font-size: 16px;
   }
   .sub-main{
     display: flex;

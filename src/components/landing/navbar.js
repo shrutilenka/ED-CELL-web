@@ -23,7 +23,7 @@ const Navbar = () => {
           style={{ fontSize: "30px", cursor: "pointer" }}
           onClick={openNav}
         >
-          &#9776;
+          <span style={{ color: "black" }}>Menu</span>&#9776;
         </button>
         <div id="mySidenav" className="sidenav" style={{ width: sidenavWidth }}>
           <button className="closebtn" onClick={closeNav}>
