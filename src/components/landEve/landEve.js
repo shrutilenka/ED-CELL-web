@@ -1,4 +1,5 @@
 import { BsArrowUpRightSquareFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 import "./../landEve/landEve.css";
 
 const LandEve = () => {
@@ -10,12 +11,15 @@ const LandEve = () => {
             UPCOMING <span style={{ color: "#1e1e1e" }}>EVENTS</span>
           </h1>
           <div className="reg-btn">
-            <button>
-              REGISTER NOW{" "}
-              <span className="span" style={{ fontSize: "3rem" }}>
-                <BsArrowUpRightSquareFill />
-              </span>
-            </button>
+            <Link to="/events">
+              {" "}
+              <button>
+                REGISTER NOW{" "}
+                <span className="span" style={{ fontSize: "3rem" }}>
+                  <BsArrowUpRightSquareFill />
+                </span>
+              </button>
+            </Link>
           </div>
         </div>
         <div className="list">
