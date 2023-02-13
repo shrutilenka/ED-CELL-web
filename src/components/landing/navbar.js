@@ -1,4 +1,7 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+// import Events from "./../events/event.js";
+
 import "./../../components/landing/navbar.css";
 import logo from "./../../img/logo.png";
 
@@ -29,10 +32,13 @@ const Navbar = () => {
           <button className="closebtn" onClick={closeNav}>
             &times;
           </button>
-          <a href="/">About</a>
-          <a href="/">Services</a>
-          <a href="/">Clients</a>
-          <a href="/">Contact</a>
+          <ul>
+            <li>
+              <Link to="/events" className="link">
+                Events
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
