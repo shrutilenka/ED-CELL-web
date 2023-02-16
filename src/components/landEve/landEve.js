@@ -1,3 +1,4 @@
+import list from "./eveList.json";
 import { BsArrowUpRightSquareFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import "./../landEve/landEve.css";
@@ -24,64 +25,23 @@ const LandEve = () => {
         </div>
         <div className="list">
           <div className="each-card">
-            <div className="blue-bg">
-              <div className="date">
-                <p style={{ fontWeight: "bolder" }}>
-                  Feb <br />
-                  11
-                </p>
-                {/* <p>11</p> */}
-              </div>
-              <div className="info">
-                <h2>Make It Big</h2>
-                <h4>9.30am - 11.30am</h4>
-              </div>
-            </div>
-          </div>
-          <div className="each-card">
-            <div className="blue-bg">
-              <div className="date">
-                <p style={{ fontWeight: "bolder" }}>
-                  Feb <br />
-                  11
-                </p>
-                {/* <p>11</p> */}
-              </div>
-              <div className="info">
-                <h2>Make It Big</h2>
-                <h4>9.30am - 11.30am</h4>
-              </div>
-            </div>
-          </div>
-          <div className="each-card">
-            <div className="blue-bg">
-              <div className="date">
-                <p style={{ fontWeight: "bolder" }}>
-                  Feb <br />
-                  11
-                </p>
-                {/* <p>11</p> */}
-              </div>
-              <div className="info">
-                <h2>Make It Big</h2>
-                <h4>9.30am - 11.30am</h4>
-              </div>
-            </div>
-          </div>
-          <div className="each-card">
-            <div className="blue-bg">
-              <div className="date">
-                <p style={{ fontWeight: "bolder" }}>
-                  Feb <br />
-                  11
-                </p>
-                {/* <p>11</p> */}
-              </div>
-              <div className="info">
-                <h2>Make It Big</h2>
-                <h4>9.30am - 11.30am</h4>
-              </div>
-            </div>
+            {list.map((data) => {
+              return (
+                <div className="blue-bg" key={data.key}>
+                  <div className="date">
+                    <p style={{ fontWeight: "bolder" }}>
+                      {data.month} <br />
+                      {data.date}
+                    </p>
+                    {/* <p>11</p> */}
+                  </div>
+                  <div className="info">
+                    <h2>{data.eventTitle}</h2>
+                    <h4>{data.time}</h4>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
