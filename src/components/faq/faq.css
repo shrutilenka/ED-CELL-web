@@ -21,25 +21,28 @@
         text-align: justify;
     }
     .sub-main{
-        margin: 1rem;  
-    }
+        margin: 1rem; 
+        display: flex;
+        flex-direction: row;
 
+    }
+    .collapse{
+        width: 100%;
+    }
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1024px){
     .main{
         width: 95%;
         margin: auto;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
     }
     .sub-main{
-        width: 45%;  
+        width: 20%;  
         margin: 0rem;
-        padding-right: 1rem;
     }
-
 }
 @media screen and (min-width: 1440px){
     .main{
