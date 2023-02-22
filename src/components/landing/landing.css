@@ -78,7 +78,7 @@
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-around;
-        margin-top: 10rem;
+        margin-top: 7rem;
     }
     .left{
          display: flex;

@@ -16,9 +16,9 @@ const Event = () => {
         onChange={onChange}
         style={{
           display: "flex",
-          justifyContent: "space-between",
+          justifyContent: "center",
           marginTop: "1.2rem",
-          marginLeft: "1.4rem",
+          marginLeft: "0rem",
         }}
         items={[
           {
