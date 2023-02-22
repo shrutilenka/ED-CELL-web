@@ -1,26 +1,30 @@
-
-
-
 /* event cards*/
-
-
-    .cards{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: auto;
-        grid-gap: .5rem;
-        width: 80%;
-        margin: auto;
-        margin-top: 4rem;
-        
+.cards{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: auto;
+      grid-gap: .5rem;
+      width: 80%;
+      margin: auto;
+      margin-top: 4rem;     
     }
     /* responsive code */
 @media (min-width: 320px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
     .cards{
-        grid-template-columns: repeat(1, 1fr);
-        width: 100%;
-        margin: auto;
-        margin-top: 4rem;
+      display: grid;
+      grid-auto-rows: auto;
+      grid-gap: .5rem;
+      width: 80%;
+      margin: auto;
+      grid-template-columns: repeat(1, 1fr);
+      width: 100%;
+      margin-top: 4rem;
+      margin-right: 4rem;
     }
 }
 
@@ -36,10 +40,10 @@
   @media (min-width: 1440px){
      .cards{
         grid-template-columns: repeat(3, 1fr);
-        margin: 8rem;
+        justify-content: center;
+        align-items: center;
      }
   }
-
 .card-content{
     display: flex;
     flex-direction: row;

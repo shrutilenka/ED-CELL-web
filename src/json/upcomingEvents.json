@@ -3,24 +3,36 @@
     "id": 1,
     "title": "event 4",
     "src": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-    "date": "mar 5, 2023 15:37:25"
+    "date": "mar 5",
+    "subtitle": "udaan",
+    "time": "5:30 am",
+    "link": "https://www.w3docs.com/snippets/css/how-to-center-the-content-in-grid.html"
   },
   {
     "id": 2,
     "title": "event 5",
     "src": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-    "date": "mar 5, 2023 15:37:25"
+    "date": "mar 5",
+    "subtitle": "udaan",
+    "time": "5:30 am",
+    "link": "https://www.w3docs.com/snippets/css/how-to-center-the-content-in-grid.html"
   },
   {
     "id": 3,
     "title": "event 40",
     "src": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-    "date": "mar 5, 2023 15:37:25"
+    "date": "mar 5",
+    "subtitle": "udaan",
+    "time": "5:30 am",
+    "link": "https://www.w3docs.com/snippets/css/how-to-center-the-content-in-grid.html"
   },
   {
     "id": 4,
     "title": "event 50",
     "src": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-    "date": "mar 5, 2023 15:37:25"
+    "date": "mar 5",
+    "subtitle": "udaan",
+    "time": "4:30 am",
+    "link": "https://www.w3docs.com/snippets/css/how-to-center-the-content-in-grid.html"
   }
 ]

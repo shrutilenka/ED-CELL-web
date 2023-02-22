@@ -21,6 +21,7 @@
     display: block;
     transition: 0.3s;
     text-align: left;
+    margin-left: 1rem;
   }
   
   .link:hover {
