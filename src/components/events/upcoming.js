@@ -25,7 +25,14 @@ const Upcoming = () => {
                 key={records.id}
               >
                 {/* <p>{records.title} </p> */}
-                <div className="card-content">
+                <div
+                  className="card-content"
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    alignItems: "center",
+                  }}
+                >
                   <h3>{records.title}</h3>
                   <p>{records.date}</p>
                 </div>
