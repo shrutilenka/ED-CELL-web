@@ -1,7 +1,7 @@
 import { Tabs } from "antd";
 import Ongoing from "./ongoing";
 import Upcoming from "./upcoming";
-import PastEvent from "./pastEvent";
+// import PastEvent from "./pastEvent";
 // import Banner from "./banner";
 
 const Event = () => {
@@ -9,7 +9,7 @@ const Event = () => {
     console.log(key);
   };
   return (
-    <div className="tabs">
+    <div className="tabs" style={{ paddingLeft: "0.4rem" }}>
       {/* <Banner /> */}
       <Tabs
         defaultActiveKey="1"
@@ -31,11 +31,11 @@ const Event = () => {
             key: "2",
             children: <Upcoming />,
           },
-          {
-            label: `Past Events`,
-            key: "3",
-            children: <PastEvent />,
-          },
+          // {
+          //   label: `Past Events`,
+          //   key: "3",
+          //   children: <PastEvent />,
+          // },
         ]}
       />
     </div>
