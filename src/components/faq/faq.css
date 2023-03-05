@@ -14,6 +14,7 @@
         justify-content: space-around;
         align-items: center;
         padding: 1rem 0rem;
+        text-align: left;
     }
     .main p{
         font-family: "gilroyLight";
