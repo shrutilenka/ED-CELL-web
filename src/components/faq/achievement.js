@@ -2,7 +2,7 @@ import { InstagramEmbed } from "react-social-media-embed";
 import { Carousel } from "antd";
 
 const contentStyle = {
-  height: "750px",
+  height: "650px",
   color: "#fff",
   lineHeight: "160px",
   textAlign: "center",
@@ -19,7 +19,14 @@ const Achieve = () => {
     //   />
     // </div>
     <div>
-      <Carousel autoplay autoplaySpeed={2000} className="banner-carousel">
+      <p>
+        Our ED cell's history shows that growth and progress are essential for
+        achievements and success and that growth is never random, it is always
+        the result of forces acting in a co-ordinated way. Despite challenges,
+        we have successfully organized and executed numerous events and
+        meetings.
+      </p>
+      <Carousel autoplay autoplaySpeed={3000} className="banner-carousel">
         <div>
           <div className="embed" style={contentStyle}>
             <InstagramEmbed url="https://www.instagram.com/p/CjZz8XkL4FU/?utm_source=ig_web_copy_link" />
