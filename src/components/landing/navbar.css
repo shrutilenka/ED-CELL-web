@@ -36,9 +36,12 @@
     margin-left: 50px;
   }
   
-  @media screen and (max-height: 450px) {
+  @media screen and (max-width: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+    .landing-nav{
+      padding-bottom: 4rem;
+    }
   }
 .logo{
   position: relative;
