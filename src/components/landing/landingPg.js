@@ -34,11 +34,19 @@ const Landing = () => {
           <h1 style={{ color: "#5271FF" }}>ENTREPRENEURSHIP</h1>
           <h1 style={{ color: "#1E1E1E" }}>DEVELOPMENT CELL</h1>
           <p>
-            A major innovation hub for technology ventures and a site for
-            interfacing with the industry, academia, government bodies, and
-            cross-border agencies. A major innovation hub for technology
-            ventures and a site for interfacing with the industry, academia,
-            government bodies, and cross-border agencies
+            We strive to create a platform that will enable young
+            entrepreneurial brains to nurture the magnificent power of their
+            wisdom and to escort them on their journey of creation. Our goal is
+            to create a virtual platform for young entrepreneurs and creators to
+            connect, share dreams, learn from professionals, and develop the
+            skills and confidence needed to start their own business.Our goal is
+            to equip students with HR, management, persuasive skills, market
+            exposure, and investors for their startup. We provide a hands-on
+            learning environment within an organization and create opportunities
+            for students to learn from professionals and compete in business
+            competitions. Our aim is to inspire students to pursue
+            entrepreneurship and provide a platform to implement their best
+            ideas.
           </p>
         </div>
         <div className="carousel">

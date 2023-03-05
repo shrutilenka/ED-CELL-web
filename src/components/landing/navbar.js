@@ -19,11 +19,11 @@ const Navbar = () => {
   return (
     <div className="landing-nav">
       <div className="logo">
-        <img src={logo} alt="" style={{ height: "4.5rem" }} />
+        <img src={logo} alt="" style={{ height: "8rem" }} />
       </div>
       <div className="menu-icon">
         <button
-          style={{ fontSize: "30px", cursor: "pointer" }}
+          style={{ fontSize: "25px", cursor: "pointer" }}
           onClick={openNav}
         >
           <span style={{ color: "black" }}>Menu</span>&#9776;
