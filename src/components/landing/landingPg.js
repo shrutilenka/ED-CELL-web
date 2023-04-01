@@ -1,6 +1,9 @@
 // import React, { useEffect } from "react";
 // import lottie from "lottie-web";
 import "./../../components/landing/landing.css";
+import p1 from "./../../img/p1.jpg";
+import p2 from "./../../img/p2.jpg";
+import p3 from "./../../img/p3.jpg";
 import Navbar from "./navbar";
 import { Carousel } from "antd";
 
@@ -54,20 +57,29 @@ const Landing = () => {
             <div>
               <h3 style={contentStyle}>
                 <img
-                  src="https://picsum.photos/200/300"
+                  src={p1}
                   style={{ height: "100%", width: "100%" }}
                   alt="pic"
                 />
               </h3>
             </div>
             <div>
-              <h3 style={contentStyle}>2</h3>
+              <h3 style={contentStyle}>
+                <img
+                  src={p2}
+                  style={{ height: "100%", width: "100%" }}
+                  alt="pic"
+                />
+              </h3>
             </div>
             <div>
-              <h3 style={contentStyle}>3</h3>
-            </div>
-            <div>
-              <h3 style={contentStyle}>4</h3>
+              <h3 style={contentStyle}>
+                <img
+                  src={p3}
+                  style={{ height: "100%", width: "100%" }}
+                  alt="pic"
+                />
+              </h3>
             </div>
           </Carousel>
         </div>
